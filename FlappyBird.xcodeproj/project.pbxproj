@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A145BEB523A124B9007155A1 /* itemget.wav in Resources */ = {isa = PBXBuildFile; fileRef = A145BEB423A124B9007155A1 /* itemget.wav */; };
 		A1615945239B9DAC005CD0F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1615944239B9DAC005CD0F4 /* AppDelegate.swift */; };
 		A1615947239B9DAC005CD0F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1615946239B9DAC005CD0F4 /* ViewController.swift */; };
 		A161594A239B9DAC005CD0F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1615948239B9DAC005CD0F4 /* Main.storyboard */; };
 		A161594C239B9DB1005CD0F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A161594B239B9DB1005CD0F4 /* Assets.xcassets */; };
 		A161594F239B9DB1005CD0F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A161594D239B9DB1005CD0F4 /* LaunchScreen.storyboard */; };
+		A1615957239CE9A3005CD0F4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1615956239CE9A3005CD0F4 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A145BEB423A124B9007155A1 /* itemget.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = itemget.wav; sourceTree = "<group>"; };
 		A1615941239B9DAC005CD0F4 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1615944239B9DAC005CD0F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1615946239B9DAC005CD0F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		A161594B239B9DB1005CD0F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A161594E239B9DB1005CD0F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1615950239B9DB1005CD0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1615956239CE9A3005CD0F4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A161594B239B9DB1005CD0F4 /* Assets.xcassets */,
 				A161594D239B9DB1005CD0F4 /* LaunchScreen.storyboard */,
 				A1615950239B9DB1005CD0F4 /* Info.plist */,
+				A1615956239CE9A3005CD0F4 /* GameScene.swift */,
+				A145BEB423A124B9007155A1 /* itemget.wav */,
 			);
 			path = FlappyBird;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				A161594F239B9DB1005CD0F4 /* LaunchScreen.storyboard in Resources */,
 				A161594C239B9DB1005CD0F4 /* Assets.xcassets in Resources */,
+				A145BEB523A124B9007155A1 /* itemget.wav in Resources */,
 				A161594A239B9DAC005CD0F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1615957239CE9A3005CD0F4 /* GameScene.swift in Sources */,
 				A1615947239B9DAC005CD0F4 /* ViewController.swift in Sources */,
 				A1615945239B9DAC005CD0F4 /* AppDelegate.swift in Sources */,
 			);
@@ -291,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.taro.kirameki.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.taro.kirameki.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
